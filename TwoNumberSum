@@ -1,0 +1,20 @@
+import java.util.*;
+
+class Program {
+  public static int[] twoNumberSum(int[] array, int targetSum) {
+		Hashtable<Integer, Integer> ht = new Hashtable<>();
+        int diff = -1;
+        for(int i = 0; i < array.length; i++) { 
+            diff = targetSum - array[i];
+            if(ht.containsValue(diff)) {
+                return new int[]{array[i], diff};
+            }
+            else {
+                ht.put(i, array[i]);
+            }
+        }
+        
+        
+        return new int[0];
+  }
+}
