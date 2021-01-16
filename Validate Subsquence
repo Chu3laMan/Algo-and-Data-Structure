@@ -1,0 +1,17 @@
+import java.util.*;
+
+class Program {
+  public static boolean isValidSubsequence(List<Integer> array, List<Integer> sequence) {
+    int seqIdx = 0, arrayIdx = 0;
+        while(arrayIdx < array.size()) {
+            if(array.get(arrayIdx).equals(sequence.get(seqIdx))) {
+                seqIdx++;
+                if(seqIdx == sequence.size())
+                    return true;
+            }
+            arrayIdx++;
+                
+        }
+        return false;
+  }
+}
