@@ -11,3 +11,5 @@ write a function that takes two lists of integers, and return boolean type, if t
 find Closest value in BST
 write a function that takes in a binary search tree and target value, the function should return the closest value to the target value
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+write a function that takes in a String and return a boolean represeting whether a string is palindrome
+----------------------------------------------------------------------------------------------------------------------------------------
