@@ -1,0 +1,20 @@
+class Program {
+  public static int[] selectionSort(int[] array) {
+    int in, out, min;
+        
+        for(out = 0; out < array.length-1; out++) {
+            min = out; // find minimum
+            for(in = out+1; in < array.length; in ++)
+                if(array[in] < array[min])
+                    min = in; // new minimum
+            swap(out, min, array);
+        }
+		return array;
+  }
+	
+	public void static void(int one, int two, int[] arr) {
+		int temp = arr[one];
+		arr[one] = arr[two];
+		arr[two] = temp;
+	}
+}
