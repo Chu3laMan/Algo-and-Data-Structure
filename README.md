@@ -15,3 +15,5 @@ write a function that takes in a String and return a boolean represeting whether
 ----------------------------------------------------------------------------------------------------------------------------------------
 write a function that takes in an integer of array and return a sorted array, (Bubble Sort, Insertion Sort, Selection Sort)
 ----------------------------------------------------------------------------------------------------------------------------------------
+Implement the depthFirstSearch method which takes in an empty array, traverse the tree using depth first search approach
+-----------------------------------------------------------------------------------------------------------------------------------------
