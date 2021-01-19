@@ -1,0 +1,19 @@
+class Program {
+  public static int[] bubbleSort(int[] array) {
+    int in, out;
+		for(out = array.length-1; out > 1; out--) {
+			for(in = 0; in < out; in++) {
+				swap(in, in+1, array);
+			}
+				
+		}
+					
+    return array;
+  }
+	
+	public static void swap(int one, int two, int arr[]) {
+		int temp = arr[one];
+		arr[one] = arr[two];
+		arr[two] = temp;
+	}
+}
