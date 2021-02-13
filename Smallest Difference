@@ -1,0 +1,16 @@
+public static int[] smallestDiff(int[] arrOne, int[] arrTwo) {
+        int max = arrOne[0];
+        for(int i =  0; i < arrOne.length; i++) {
+            int diff = -1;
+            for(int j = 0; j < arrTwo.length; j++) {
+                if(max < arrOne[i])
+                    max = arrOne[j];
+                diff = Math.abs(max - arrTwo[j]);
+                if(diff <= 2 && 2 <= diff)
+                    return new int[]{max, arrTwo[j]};
+            }
+        }
+       
+        
+        return new int[]{0};
+    }
