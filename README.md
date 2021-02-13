@@ -17,3 +17,5 @@ write a function that takes in an integer of array and return a sorted array, (B
 ----------------------------------------------------------------------------------------------------------------------------------------
 Implement the depthFirstSearch method which takes in an empty array, traverse the tree using depth first search approach
 -----------------------------------------------------------------------------------------------------------------------------------------
+write a function that takes in a non empty arrays of integers, find the pair of number(one from each integer) whose absolute difference is closest to zero
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
