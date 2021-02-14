@@ -1,0 +1,18 @@
+import java.util.*;
+
+class Program {
+
+  public boolean classPhotos(
+      ArrayList<Integer> redShirtHeights, ArrayList<Integer> blueShirtHeights) {
+    int redCount = 0, blueCount = 0;
+        while(redCount == blueCount) {
+            if(!redShirtHeights.get(redCount).equals(blueShirtHeights.get(blueCount))) 
+                return true;
+            redCount++;
+            blueCount++;
+            if((redCount == redShirtHeights.size()) && (blueCount == blueShirtHeights.size())) break;
+        }
+        
+    return false;
+  }
+}
