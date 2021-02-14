@@ -19,3 +19,8 @@ Implement the depthFirstSearch method which takes in an empty array, traverse th
 -----------------------------------------------------------------------------------------------------------------------------------------
 write a function that takes in a non empty arrays of integers, find the pair of number(one from each integer) whose absolute difference is closest to zero
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
+write a function that takes in two lists of type arraylist, the function should return the following guidelines :
+1-all students wearing red shirts must be in the same row
+2-all students wearing blue shirts must be in the same row
+3-each student in the back row must be stricktly than the student directly in front of them in the front row
+------------------------------------------------------------------------------------------------------------------------------------------------------------
